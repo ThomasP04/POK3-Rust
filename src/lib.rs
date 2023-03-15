@@ -31,6 +31,7 @@ impl<T> Tableau<T> {
         self.elements.pop();
         self.taille-=1;
     }
+
 }
 
 fn affiche_element<E>(tableau: &Tableau<E>, i: usize) -> &E {
